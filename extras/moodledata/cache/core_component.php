@@ -1,0 +1,1630 @@
+<?php
+$cache = array (
+  'subsystems' => 
+  array (
+    'access' => NULL,
+    'admin' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin',
+    'auth' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth',
+    'backup' => 'C:\\xampp\\htdocs\\simulacion\\moodle/backup/util/ui',
+    'badges' => 'C:\\xampp\\htdocs\\simulacion\\moodle/badges',
+    'block' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks',
+    'blog' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blog',
+    'bulkusers' => NULL,
+    'cache' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache',
+    'calendar' => 'C:\\xampp\\htdocs\\simulacion\\moodle/calendar',
+    'cohort' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cohort',
+    'condition' => NULL,
+    'completion' => NULL,
+    'countries' => NULL,
+    'course' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course',
+    'currencies' => NULL,
+    'dbtransfer' => NULL,
+    'debug' => NULL,
+    'editor' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor',
+    'edufields' => NULL,
+    'enrol' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol',
+    'error' => NULL,
+    'filepicker' => NULL,
+    'files' => 'C:\\xampp\\htdocs\\simulacion\\moodle/files',
+    'filters' => NULL,
+    'form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/form',
+    'grades' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade',
+    'grading' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/grading',
+    'group' => 'C:\\xampp\\htdocs\\simulacion\\moodle/group',
+    'help' => NULL,
+    'hub' => NULL,
+    'imscc' => NULL,
+    'install' => NULL,
+    'iso6392' => NULL,
+    'langconfig' => NULL,
+    'license' => NULL,
+    'mathslib' => NULL,
+    'media' => NULL,
+    'message' => 'C:\\xampp\\htdocs\\simulacion\\moodle/message',
+    'mimetypes' => NULL,
+    'mnet' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mnet',
+    'my' => 'C:\\xampp\\htdocs\\simulacion\\moodle/my',
+    'notes' => 'C:\\xampp\\htdocs\\simulacion\\moodle/notes',
+    'pagetype' => NULL,
+    'pix' => NULL,
+    'plagiarism' => 'C:\\xampp\\htdocs\\simulacion\\moodle/plagiarism',
+    'plugin' => NULL,
+    'portfolio' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio',
+    'publish' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/publish',
+    'question' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question',
+    'rating' => 'C:\\xampp\\htdocs\\simulacion\\moodle/rating',
+    'register' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/registration',
+    'repository' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository',
+    'rss' => 'C:\\xampp\\htdocs\\simulacion\\moodle/rss',
+    'role' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles',
+    'search' => NULL,
+    'table' => NULL,
+    'tag' => 'C:\\xampp\\htdocs\\simulacion\\moodle/tag',
+    'timezones' => NULL,
+    'user' => 'C:\\xampp\\htdocs\\simulacion\\moodle/user',
+    'userkey' => NULL,
+    'webservice' => 'C:\\xampp\\htdocs\\simulacion\\moodle/webservice',
+  ),
+  'plugintypes' => 
+  array (
+    'qtype' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type',
+    'mod' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod',
+    'auth' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth',
+    'calendartype' => 'C:\\xampp\\htdocs\\simulacion\\moodle/calendar/type',
+    'enrol' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol',
+    'message' => 'C:\\xampp\\htdocs\\simulacion\\moodle/message/output',
+    'block' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks',
+    'filter' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter',
+    'editor' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor',
+    'format' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/format',
+    'profilefield' => 'C:\\xampp\\htdocs\\simulacion\\moodle/user/profile/field',
+    'report' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report',
+    'coursereport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/report',
+    'gradeexport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/export',
+    'gradeimport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/import',
+    'gradereport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/report',
+    'gradingform' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/grading/form',
+    'mnetservice' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mnet/service',
+    'webservice' => 'C:\\xampp\\htdocs\\simulacion\\moodle/webservice',
+    'repository' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository',
+    'portfolio' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio',
+    'qbehaviour' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/behaviour',
+    'qformat' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/format',
+    'plagiarism' => 'C:\\xampp\\htdocs\\simulacion\\moodle/plagiarism',
+    'tool' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool',
+    'cachestore' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores',
+    'cachelock' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/locks',
+    'theme' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme',
+    'assignsubmission' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/submission',
+    'assignfeedback' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback',
+    'assignment' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assignment/type',
+    'booktool' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/tool',
+    'datafield' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field',
+    'datapreset' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/preset',
+    'ltisource' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/lti/source',
+    'quiz' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/report',
+    'quizaccess' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/accessrule',
+    'scormreport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/scorm/report',
+    'workshopform' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/form',
+    'workshopallocation' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/allocation',
+    'workshopeval' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/eval',
+    'tinymce' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins',
+    'local' => 'C:\\xampp\\htdocs\\simulacion\\moodle/local',
+  ),
+  'plugins' => 
+  array (
+    'qtype' => 
+    array (
+      'calculated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/calculated',
+      'calculatedmulti' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/calculatedmulti',
+      'calculatedsimple' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/calculatedsimple',
+      'description' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/description',
+      'essay' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/essay',
+      'match' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/match',
+      'missingtype' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/missingtype',
+      'multianswer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/multianswer',
+      'multichoice' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/multichoice',
+      'numerical' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/numerical',
+      'random' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/random',
+      'randomsamatch' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/randomsamatch',
+      'shortanswer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/shortanswer',
+      'truefalse' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/truefalse',
+    ),
+    'mod' => 
+    array (
+      'assign' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign',
+      'assignment' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assignment',
+      'book' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book',
+      'chat' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/chat',
+      'choice' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/choice',
+      'data' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data',
+      'feedback' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/feedback',
+      'folder' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/folder',
+      'forum' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/forum',
+      'glossary' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/glossary',
+      'imscp' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/imscp',
+      'label' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/label',
+      'lesson' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/lesson',
+      'lti' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/lti',
+      'page' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/page',
+      'quiz' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz',
+      'resource' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/resource',
+      'scorm' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/scorm',
+      'survey' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/survey',
+      'url' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/url',
+      'wiki' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/wiki',
+      'workshop' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop',
+    ),
+    'auth' => 
+    array (
+      'cas' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/cas',
+      'db' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/db',
+      'email' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/email',
+      'fc' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/fc',
+      'imap' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/imap',
+      'ldap' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/ldap',
+      'manual' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/manual',
+      'mnet' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/mnet',
+      'nntp' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/nntp',
+      'nologin' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/nologin',
+      'none' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/none',
+      'pam' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/pam',
+      'pop3' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/pop3',
+      'radius' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/radius',
+      'shibboleth' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/shibboleth',
+      'webservice' => 'C:\\xampp\\htdocs\\simulacion\\moodle/auth/webservice',
+    ),
+    'calendartype' => 
+    array (
+      'gregorian' => 'C:\\xampp\\htdocs\\simulacion\\moodle/calendar/type/gregorian',
+    ),
+    'enrol' => 
+    array (
+      'category' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/category',
+      'cohort' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/cohort',
+      'database' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/database',
+      'flatfile' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/flatfile',
+      'guest' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/guest',
+      'imsenterprise' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/imsenterprise',
+      'ldap' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/ldap',
+      'manual' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/manual',
+      'meta' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/meta',
+      'mnet' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/mnet',
+      'paypal' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/paypal',
+      'self' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/self',
+    ),
+    'message' => 
+    array (
+      'email' => 'C:\\xampp\\htdocs\\simulacion\\moodle/message/output/email',
+      'jabber' => 'C:\\xampp\\htdocs\\simulacion\\moodle/message/output/jabber',
+      'popup' => 'C:\\xampp\\htdocs\\simulacion\\moodle/message/output/popup',
+    ),
+    'block' => 
+    array (
+      'activity_modules' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/activity_modules',
+      'admin_bookmarks' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/admin_bookmarks',
+      'badges' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/badges',
+      'blog_menu' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/blog_menu',
+      'blog_recent' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/blog_recent',
+      'blog_tags' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/blog_tags',
+      'calendar_month' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/calendar_month',
+      'calendar_upcoming' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/calendar_upcoming',
+      'comments' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/comments',
+      'community' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/community',
+      'completionstatus' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/completionstatus',
+      'course_list' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/course_list',
+      'course_overview' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/course_overview',
+      'course_summary' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/course_summary',
+      'feedback' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/feedback',
+      'glossary_random' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/glossary_random',
+      'html' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/html',
+      'login' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/login',
+      'mentees' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/mentees',
+      'messages' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/messages',
+      'mnet_hosts' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/mnet_hosts',
+      'myprofile' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/myprofile',
+      'navigation' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/navigation',
+      'news_items' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/news_items',
+      'online_users' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/online_users',
+      'participants' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/participants',
+      'private_files' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/private_files',
+      'quiz_results' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/quiz_results',
+      'recent_activity' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/recent_activity',
+      'rss_client' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/rss_client',
+      'search_forums' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/search_forums',
+      'section_links' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/section_links',
+      'selfcompletion' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/selfcompletion',
+      'settings' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/settings',
+      'site_main_menu' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/site_main_menu',
+      'social_activities' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/social_activities',
+      'tag_flickr' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/tag_flickr',
+      'tag_youtube' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/tag_youtube',
+      'tags' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/tags',
+    ),
+    'filter' => 
+    array (
+      'activitynames' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/activitynames',
+      'algebra' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/algebra',
+      'censor' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/censor',
+      'data' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/data',
+      'emailprotect' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/emailprotect',
+      'emoticon' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/emoticon',
+      'glossary' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/glossary',
+      'mediaplugin' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/mediaplugin',
+      'multilang' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/multilang',
+      'tex' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/tex',
+      'tidy' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/tidy',
+      'urltolink' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/urltolink',
+    ),
+    'editor' => 
+    array (
+      'textarea' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/textarea',
+      'tinymce' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce',
+    ),
+    'format' => 
+    array (
+      'singleactivity' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/format/singleactivity',
+      'social' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/format/social',
+      'topics' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/format/topics',
+      'weeks' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/format/weeks',
+    ),
+    'profilefield' => 
+    array (
+      'checkbox' => 'C:\\xampp\\htdocs\\simulacion\\moodle/user/profile/field/checkbox',
+      'datetime' => 'C:\\xampp\\htdocs\\simulacion\\moodle/user/profile/field/datetime',
+      'menu' => 'C:\\xampp\\htdocs\\simulacion\\moodle/user/profile/field/menu',
+      'text' => 'C:\\xampp\\htdocs\\simulacion\\moodle/user/profile/field/text',
+      'textarea' => 'C:\\xampp\\htdocs\\simulacion\\moodle/user/profile/field/textarea',
+    ),
+    'report' => 
+    array (
+      'backups' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/backups',
+      'completion' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/completion',
+      'configlog' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/configlog',
+      'courseoverview' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/courseoverview',
+      'log' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/log',
+      'loglive' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/loglive',
+      'outline' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/outline',
+      'participation' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/participation',
+      'performance' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/performance',
+      'progress' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/progress',
+      'questioninstances' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/questioninstances',
+      'security' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/security',
+      'stats' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/stats',
+    ),
+    'coursereport' => 
+    array (
+    ),
+    'gradeexport' => 
+    array (
+      'ods' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/export/ods',
+      'txt' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/export/txt',
+      'xls' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/export/xls',
+      'xml' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/export/xml',
+    ),
+    'gradeimport' => 
+    array (
+      'csv' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/import/csv',
+      'xml' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/import/xml',
+    ),
+    'gradereport' => 
+    array (
+      'grader' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/report/grader',
+      'outcomes' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/report/outcomes',
+      'overview' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/report/overview',
+      'user' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/report/user',
+    ),
+    'gradingform' => 
+    array (
+      'guide' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/grading/form/guide',
+      'rubric' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/grading/form/rubric',
+    ),
+    'mnetservice' => 
+    array (
+      'enrol' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mnet/service/enrol',
+    ),
+    'webservice' => 
+    array (
+      'amf' => 'C:\\xampp\\htdocs\\simulacion\\moodle/webservice/amf',
+      'rest' => 'C:\\xampp\\htdocs\\simulacion\\moodle/webservice/rest',
+      'soap' => 'C:\\xampp\\htdocs\\simulacion\\moodle/webservice/soap',
+      'xmlrpc' => 'C:\\xampp\\htdocs\\simulacion\\moodle/webservice/xmlrpc',
+    ),
+    'repository' => 
+    array (
+      'alfresco' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/alfresco',
+      'areafiles' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/areafiles',
+      'boxnet' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/boxnet',
+      'coursefiles' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/coursefiles',
+      'dropbox' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/dropbox',
+      'equella' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/equella',
+      'filesystem' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/filesystem',
+      'flickr' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/flickr',
+      'flickr_public' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/flickr_public',
+      'googledocs' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/googledocs',
+      'local' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/local',
+      'merlot' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/merlot',
+      'picasa' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/picasa',
+      'recent' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/recent',
+      's3' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/s3',
+      'skydrive' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/skydrive',
+      'upload' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/upload',
+      'url' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/url',
+      'user' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/user',
+      'webdav' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/webdav',
+      'wikimedia' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/wikimedia',
+      'youtube' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/youtube',
+    ),
+    'portfolio' => 
+    array (
+      'boxnet' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio/boxnet',
+      'download' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio/download',
+      'flickr' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio/flickr',
+      'googledocs' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio/googledocs',
+      'mahara' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio/mahara',
+      'picasa' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio/picasa',
+    ),
+    'qbehaviour' => 
+    array (
+      'adaptive' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/behaviour/adaptive',
+      'adaptivenopenalty' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/behaviour/adaptivenopenalty',
+      'deferredcbm' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/behaviour/deferredcbm',
+      'deferredfeedback' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/behaviour/deferredfeedback',
+      'immediatecbm' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/behaviour/immediatecbm',
+      'immediatefeedback' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/behaviour/immediatefeedback',
+      'informationitem' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/behaviour/informationitem',
+      'interactive' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/behaviour/interactive',
+      'interactivecountback' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/behaviour/interactivecountback',
+      'manualgraded' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/behaviour/manualgraded',
+      'missing' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/behaviour/missing',
+    ),
+    'qformat' => 
+    array (
+      'aiken' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/format/aiken',
+      'blackboard_six' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/format/blackboard_six',
+      'examview' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/format/examview',
+      'gift' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/format/gift',
+      'learnwise' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/format/learnwise',
+      'missingword' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/format/missingword',
+      'multianswer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/format/multianswer',
+      'webct' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/format/webct',
+      'xhtml' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/format/xhtml',
+      'xml' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/format/xml',
+    ),
+    'plagiarism' => 
+    array (
+    ),
+    'tool' => 
+    array (
+      'assignmentupgrade' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/assignmentupgrade',
+      'behat' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/behat',
+      'capability' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/capability',
+      'customlang' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/customlang',
+      'dbtransfer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/dbtransfer',
+      'generator' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator',
+      'health' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/health',
+      'innodb' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/innodb',
+      'installaddon' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/installaddon',
+      'langimport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/langimport',
+      'multilangupgrade' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/multilangupgrade',
+      'phpunit' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/phpunit',
+      'profiling' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/profiling',
+      'qeupgradehelper' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/qeupgradehelper',
+      'replace' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/replace',
+      'spamcleaner' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/spamcleaner',
+      'timezoneimport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/timezoneimport',
+      'unsuproles' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/unsuproles',
+      'uploadcourse' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse',
+      'uploaduser' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploaduser',
+      'xmldb' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/xmldb',
+    ),
+    'cachestore' => 
+    array (
+      'file' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/file',
+      'memcache' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/memcache',
+      'memcached' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/memcached',
+      'mongodb' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/mongodb',
+      'session' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/session',
+      'static' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/static',
+    ),
+    'cachelock' => 
+    array (
+      'file' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/locks/file',
+    ),
+    'theme' => 
+    array (
+      'afterburner' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/afterburner',
+      'anomaly' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/anomaly',
+      'arialist' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/arialist',
+      'base' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/base',
+      'binarius' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/binarius',
+      'bootstrapbase' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/bootstrapbase',
+      'boxxie' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/boxxie',
+      'brick' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/brick',
+      'canvas' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/canvas',
+      'clean' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/clean',
+      'formal_white' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/formal_white',
+      'formfactor' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/formfactor',
+      'fusion' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/fusion',
+      'leatherbound' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/leatherbound',
+      'magazine' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/magazine',
+      'nimble' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/nimble',
+      'nonzero' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/nonzero',
+      'overlay' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/overlay',
+      'serenity' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/serenity',
+      'sky_high' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/sky_high',
+      'splash' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/splash',
+      'standard' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/standard',
+      'standardold' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/standardold',
+    ),
+    'assignsubmission' => 
+    array (
+      'comments' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/submission/comments',
+      'file' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/submission/file',
+      'onlinetext' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/submission/onlinetext',
+    ),
+    'assignfeedback' => 
+    array (
+      'comments' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/comments',
+      'editpdf' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf',
+      'file' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/file',
+      'offline' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/offline',
+    ),
+    'assignment' => 
+    array (
+      'offline' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assignment/type/offline',
+      'online' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assignment/type/online',
+      'upload' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assignment/type/upload',
+      'uploadsingle' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assignment/type/uploadsingle',
+    ),
+    'booktool' => 
+    array (
+      'exportimscp' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/tool/exportimscp',
+      'importhtml' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/tool/importhtml',
+      'print' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/tool/print',
+    ),
+    'datafield' => 
+    array (
+      'checkbox' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field/checkbox',
+      'date' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field/date',
+      'file' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field/file',
+      'latlong' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field/latlong',
+      'menu' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field/menu',
+      'multimenu' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field/multimenu',
+      'number' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field/number',
+      'picture' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field/picture',
+      'radiobutton' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field/radiobutton',
+      'text' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field/text',
+      'textarea' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field/textarea',
+      'url' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/field/url',
+    ),
+    'datapreset' => 
+    array (
+      'imagegallery' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/preset/imagegallery',
+    ),
+    'ltisource' => 
+    array (
+    ),
+    'quiz' => 
+    array (
+      'grading' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/report/grading',
+      'overview' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/report/overview',
+      'responses' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/report/responses',
+      'statistics' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/report/statistics',
+    ),
+    'quizaccess' => 
+    array (
+      'delaybetweenattempts' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/accessrule/delaybetweenattempts',
+      'ipaddress' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/accessrule/ipaddress',
+      'numattempts' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/accessrule/numattempts',
+      'openclosedate' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/accessrule/openclosedate',
+      'password' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/accessrule/password',
+      'safebrowser' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/accessrule/safebrowser',
+      'securewindow' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/accessrule/securewindow',
+      'timelimit' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/accessrule/timelimit',
+    ),
+    'scormreport' => 
+    array (
+      'basic' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/scorm/report/basic',
+      'graphs' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/scorm/report/graphs',
+      'interactions' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/scorm/report/interactions',
+      'objectives' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/scorm/report/objectives',
+    ),
+    'workshopform' => 
+    array (
+      'accumulative' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/form/accumulative',
+      'comments' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/form/comments',
+      'numerrors' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/form/numerrors',
+      'rubric' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/form/rubric',
+    ),
+    'workshopallocation' => 
+    array (
+      'manual' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/allocation/manual',
+      'random' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/allocation/random',
+      'scheduled' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/allocation/scheduled',
+    ),
+    'workshopeval' => 
+    array (
+      'best' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/eval/best',
+    ),
+    'tinymce' => 
+    array (
+      'ctrlhelp' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/ctrlhelp',
+      'dragmath' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/dragmath',
+      'managefiles' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/managefiles',
+      'moodleemoticon' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/moodleemoticon',
+      'moodleimage' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/moodleimage',
+      'moodlemedia' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/moodlemedia',
+      'moodlenolink' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/moodlenolink',
+      'pdw' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/pdw',
+      'spellchecker' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker',
+      'wrap' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/wrap',
+    ),
+    'local' => 
+    array (
+    ),
+  ),
+  'parents' => 
+  array (
+    'assignsubmission' => 'mod_assign',
+    'assignfeedback' => 'mod_assign',
+    'assignment' => 'mod_assignment',
+    'booktool' => 'mod_book',
+    'datafield' => 'mod_data',
+    'datapreset' => 'mod_data',
+    'ltisource' => 'mod_lti',
+    'quiz' => 'mod_quiz',
+    'quizaccess' => 'mod_quiz',
+    'scormreport' => 'mod_scorm',
+    'workshopform' => 'mod_workshop',
+    'workshopallocation' => 'mod_workshop',
+    'workshopeval' => 'mod_workshop',
+    'tinymce' => 'editor_tinymce',
+  ),
+  'subplugins' => 
+  array (
+    'mod_assign' => 
+    array (
+      'assignsubmission' => 
+      array (
+        0 => 'comments',
+        1 => 'file',
+        2 => 'onlinetext',
+      ),
+      'assignfeedback' => 
+      array (
+        0 => 'comments',
+        1 => 'editpdf',
+        2 => 'file',
+        3 => 'offline',
+      ),
+    ),
+    'mod_assignment' => 
+    array (
+      'assignment' => 
+      array (
+        0 => 'offline',
+        1 => 'online',
+        2 => 'upload',
+        3 => 'uploadsingle',
+      ),
+    ),
+    'mod_book' => 
+    array (
+      'booktool' => 
+      array (
+        0 => 'exportimscp',
+        1 => 'importhtml',
+        2 => 'print',
+      ),
+    ),
+    'mod_data' => 
+    array (
+      'datafield' => 
+      array (
+        0 => 'checkbox',
+        1 => 'date',
+        2 => 'file',
+        3 => 'latlong',
+        4 => 'menu',
+        5 => 'multimenu',
+        6 => 'number',
+        7 => 'picture',
+        8 => 'radiobutton',
+        9 => 'text',
+        10 => 'textarea',
+        11 => 'url',
+      ),
+      'datapreset' => 
+      array (
+        0 => 'imagegallery',
+      ),
+    ),
+    'mod_lti' => 
+    array (
+      'ltisource' => 
+      array (
+      ),
+    ),
+    'mod_quiz' => 
+    array (
+      'quiz' => 
+      array (
+        0 => 'grading',
+        1 => 'overview',
+        2 => 'responses',
+        3 => 'statistics',
+      ),
+      'quizaccess' => 
+      array (
+        0 => 'delaybetweenattempts',
+        1 => 'ipaddress',
+        2 => 'numattempts',
+        3 => 'openclosedate',
+        4 => 'password',
+        5 => 'safebrowser',
+        6 => 'securewindow',
+        7 => 'timelimit',
+      ),
+    ),
+    'mod_scorm' => 
+    array (
+      'scormreport' => 
+      array (
+        0 => 'basic',
+        1 => 'graphs',
+        2 => 'interactions',
+        3 => 'objectives',
+      ),
+    ),
+    'mod_workshop' => 
+    array (
+      'workshopform' => 
+      array (
+        0 => 'accumulative',
+        1 => 'comments',
+        2 => 'numerrors',
+        3 => 'rubric',
+      ),
+      'workshopallocation' => 
+      array (
+        0 => 'manual',
+        1 => 'random',
+        2 => 'scheduled',
+      ),
+      'workshopeval' => 
+      array (
+        0 => 'best',
+      ),
+    ),
+    'editor_tinymce' => 
+    array (
+      'tinymce' => 
+      array (
+        0 => 'ctrlhelp',
+        1 => 'dragmath',
+        2 => 'managefiles',
+        3 => 'moodleemoticon',
+        4 => 'moodleimage',
+        5 => 'moodlemedia',
+        6 => 'moodlenolink',
+        7 => 'pdw',
+        8 => 'spellchecker',
+        9 => 'wrap',
+      ),
+    ),
+  ),
+  'classmap' => 
+  array (
+    'assignfeedback_editpdf\\annotation' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/annotation.php',
+    'assignfeedback_editpdf\\comment' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/comment.php',
+    'assignfeedback_editpdf\\comments_quick_list' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/comments_quick_list.php',
+    'assignfeedback_editpdf\\document_services' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/document_services.php',
+    'assignfeedback_editpdf\\page_editor' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/page_editor.php',
+    'assignfeedback_editpdf\\pdf' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/pdf.php',
+    'assignfeedback_editpdf\\renderer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/renderer.php',
+    'assignfeedback_editpdf\\widget' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/widget.php',
+    'assignfeedback_editpdf_annotation' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/annotation.php',
+    'assignfeedback_editpdf_comment' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/comment.php',
+    'assignfeedback_editpdf_comments_quick_list' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/comments_quick_list.php',
+    'assignfeedback_editpdf_document_services' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/document_services.php',
+    'assignfeedback_editpdf_page_editor' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/page_editor.php',
+    'assignfeedback_editpdf_pdf' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/pdf.php',
+    'assignfeedback_editpdf_renderer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/renderer.php',
+    'assignfeedback_editpdf_widget' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/classes/widget.php',
+    'assignment_online\\event\\assessable_uploaded' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assignment/type/online/classes/event/assessable_uploaded.php',
+    'assignment_upload\\event\\assessable_submitted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assignment/type/upload/classes/event/assessable_submitted.php',
+    'assignment_upload\\event\\assessable_uploaded' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assignment/type/upload/classes/event/assessable_uploaded.php',
+    'assignsubmission_file\\event\\assessable_uploaded' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/submission/file/classes/event/assessable_uploaded.php',
+    'assignsubmission_onlinetext\\event\\assessable_uploaded' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/submission/onlinetext/classes/event/assessable_uploaded.php',
+    'booktool_exportimscp\\event\\book_exported' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/tool/exportimscp/classes/event/book_exported.php',
+    'booktool_print\\event\\book_printed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/tool/print/classes/event/book_printed.php',
+    'booktool_print\\event\\chapter_printed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/tool/print/classes/event/chapter_printed.php',
+    'calendartype_gregorian\\structure' => 'C:\\xampp\\htdocs\\simulacion\\moodle/calendar/type/gregorian/classes/structure.php',
+    'calendartype_gregorian_structure' => 'C:\\xampp\\htdocs\\simulacion\\moodle/calendar/type/gregorian/classes/structure.php',
+    'collatorlib' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/collator.php',
+    'core\\collator' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/collator.php',
+    'core\\component' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/component.php',
+    'core\\event\\assessable_submitted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/assessable_submitted.php',
+    'core\\event\\assessable_uploaded' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/assessable_uploaded.php',
+    'core\\event\\base' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/base.php',
+    'core\\event\\blog_entry_created' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/blog_entry_created.php',
+    'core\\event\\blog_entry_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/blog_entry_deleted.php',
+    'core\\event\\blog_entry_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/blog_entry_updated.php',
+    'core\\event\\cohort_created' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/cohort_created.php',
+    'core\\event\\cohort_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/cohort_deleted.php',
+    'core\\event\\cohort_member_added' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/cohort_member_added.php',
+    'core\\event\\cohort_member_removed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/cohort_member_removed.php',
+    'core\\event\\cohort_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/cohort_updated.php',
+    'core\\event\\content_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/content_viewed.php',
+    'core\\event\\course_category_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_category_deleted.php',
+    'core\\event\\course_completed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_completed.php',
+    'core\\event\\course_completion_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_completion_updated.php',
+    'core\\event\\course_content_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_content_deleted.php',
+    'core\\event\\course_created' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_created.php',
+    'core\\event\\course_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_deleted.php',
+    'core\\event\\course_module_completion_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_module_completion_updated.php',
+    'core\\event\\course_module_created' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_module_created.php',
+    'core\\event\\course_module_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_module_deleted.php',
+    'core\\event\\course_module_instances_list_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_module_instances_list_viewed.php',
+    'core\\event\\course_module_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_module_updated.php',
+    'core\\event\\course_reset_ended' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_reset_ended.php',
+    'core\\event\\course_reset_started' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_reset_started.php',
+    'core\\event\\course_restored' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_restored.php',
+    'core\\event\\course_section_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_section_updated.php',
+    'core\\event\\course_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/course_updated.php',
+    'core\\event\\group_created' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/group_created.php',
+    'core\\event\\group_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/group_deleted.php',
+    'core\\event\\group_member_added' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/group_member_added.php',
+    'core\\event\\group_member_removed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/group_member_removed.php',
+    'core\\event\\group_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/group_updated.php',
+    'core\\event\\grouping_created' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/grouping_created.php',
+    'core\\event\\grouping_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/grouping_deleted.php',
+    'core\\event\\grouping_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/grouping_updated.php',
+    'core\\event\\manager' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/manager.php',
+    'core\\event\\note_created' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/note_created.php',
+    'core\\event\\note_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/note_deleted.php',
+    'core\\event\\note_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/note_updated.php',
+    'core\\event\\notes_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/notes_viewed.php',
+    'core\\event\\role_allow_assign_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/role_allow_assign_updated.php',
+    'core\\event\\role_allow_override_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/role_allow_override_updated.php',
+    'core\\event\\role_allow_switch_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/role_allow_switch_updated.php',
+    'core\\event\\role_assigned' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/role_assigned.php',
+    'core\\event\\role_capabilities_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/role_capabilities_updated.php',
+    'core\\event\\role_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/role_deleted.php',
+    'core\\event\\role_unassigned' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/role_unassigned.php',
+    'core\\event\\user_created' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/user_created.php',
+    'core\\event\\user_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/user_deleted.php',
+    'core\\event\\user_enrolment_created' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/user_enrolment_created.php',
+    'core\\event\\user_enrolment_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/user_enrolment_deleted.php',
+    'core\\event\\user_enrolment_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/user_enrolment_updated.php',
+    'core\\event\\user_list_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/user_list_viewed.php',
+    'core\\event\\user_loggedin' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/user_loggedin.php',
+    'core\\event\\user_loggedinas' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/user_loggedinas.php',
+    'core\\event\\user_loggedout' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/user_loggedout.php',
+    'core\\event\\user_profile_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/user_profile_viewed.php',
+    'core\\event\\user_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/user_updated.php',
+    'core\\event\\webservice_function_called' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/webservice_function_called.php',
+    'core\\event\\webservice_login_failed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/webservice_login_failed.php',
+    'core\\event\\webservice_service_created' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/webservice_service_created.php',
+    'core\\event\\webservice_service_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/webservice_service_deleted.php',
+    'core\\event\\webservice_service_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/webservice_service_updated.php',
+    'core\\event\\webservice_service_user_added' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/webservice_service_user_added.php',
+    'core\\event\\webservice_service_user_removed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/webservice_service_user_removed.php',
+    'core\\event\\webservice_token_created' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/webservice_token_created.php',
+    'core\\event\\webservice_token_sent' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/event/webservice_token_sent.php',
+    'core\\minify' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/minify.php',
+    'core\\plugin_manager' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugin_manager.php',
+    'core\\plugininfo\\auth' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/auth.php',
+    'core\\plugininfo\\base' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/base.php',
+    'core\\plugininfo\\block' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/block.php',
+    'core\\plugininfo\\cachelock' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/cachelock.php',
+    'core\\plugininfo\\cachestore' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/cachestore.php',
+    'core\\plugininfo\\calendartype' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/calendartype.php',
+    'core\\plugininfo\\coursereport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/coursereport.php',
+    'core\\plugininfo\\editor' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/editor.php',
+    'core\\plugininfo\\enrol' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/enrol.php',
+    'core\\plugininfo\\filter' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/filter.php',
+    'core\\plugininfo\\format' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/format.php',
+    'core\\plugininfo\\general' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/general.php',
+    'core\\plugininfo\\gradeexport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/gradeexport.php',
+    'core\\plugininfo\\gradeimport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/gradeimport.php',
+    'core\\plugininfo\\gradereport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/gradereport.php',
+    'core\\plugininfo\\gradingform' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/gradingform.php',
+    'core\\plugininfo\\local' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/local.php',
+    'core\\plugininfo\\message' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/message.php',
+    'core\\plugininfo\\mnetservice' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/mnetservice.php',
+    'core\\plugininfo\\mod' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/mod.php',
+    'core\\plugininfo\\orphaned' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/orphaned.php',
+    'core\\plugininfo\\plagiarism' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/plagiarism.php',
+    'core\\plugininfo\\portfolio' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/portfolio.php',
+    'core\\plugininfo\\profilefield' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/profilefield.php',
+    'core\\plugininfo\\qbehaviour' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/qbehaviour.php',
+    'core\\plugininfo\\qformat' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/qformat.php',
+    'core\\plugininfo\\qtype' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/qtype.php',
+    'core\\plugininfo\\report' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/report.php',
+    'core\\plugininfo\\repository' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/repository.php',
+    'core\\plugininfo\\theme' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/theme.php',
+    'core\\plugininfo\\tool' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/tool.php',
+    'core\\plugininfo\\webservice' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugininfo/webservice.php',
+    'core\\session\\database' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/session/database.php',
+    'core\\session\\exception' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/session/exception.php',
+    'core\\session\\file' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/session/file.php',
+    'core\\session\\handler' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/session/handler.php',
+    'core\\session\\manager' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/session/manager.php',
+    'core\\session\\memcached' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/session/memcached.php',
+    'core\\shutdown_manager' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/shutdown_manager.php',
+    'core\\string_manager' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/string_manager.php',
+    'core\\string_manager_install' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/string_manager_install.php',
+    'core\\string_manager_standard' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/string_manager_standard.php',
+    'core\\text' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/text.php',
+    'core\\update\\checker' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/update/checker.php',
+    'core\\update\\checker_exception' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/update/checker_exception.php',
+    'core\\update\\deployer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/update/deployer.php',
+    'core\\update\\info' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/update/info.php',
+    'core\\user' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/user.php',
+    'core\\useragent' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/useragent.php',
+    'core_badges\\assertion' => 'C:\\xampp\\htdocs\\simulacion\\moodle/badges/classes/assertion.php',
+    'core_badges\\observer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/badges/classes/observer.php',
+    'core_badges_assertion' => 'C:\\xampp\\htdocs\\simulacion\\moodle/badges/classes/assertion.php',
+    'core_badges_observer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/badges/classes/observer.php',
+    'core_cache\\config' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/config.php',
+    'core_cache\\definition' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/definition.php',
+    'core_cache\\dummystore' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/dummystore.php',
+    'core_cache\\factory' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/factory.php',
+    'core_cache\\helper' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/helper.php',
+    'core_cache\\interfaces' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/interfaces.php',
+    'core_cache\\loaders' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/loaders.php',
+    'core_cache\\store' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/store.php',
+    'core_cache_config' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/config.php',
+    'core_cache_definition' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/definition.php',
+    'core_cache_dummystore' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/dummystore.php',
+    'core_cache_factory' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/factory.php',
+    'core_cache_helper' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/helper.php',
+    'core_cache_interfaces' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/interfaces.php',
+    'core_cache_loaders' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/loaders.php',
+    'core_cache_store' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/classes/store.php',
+    'core_calendar\\type_base' => 'C:\\xampp\\htdocs\\simulacion\\moodle/calendar/classes/type_base.php',
+    'core_calendar\\type_factory' => 'C:\\xampp\\htdocs\\simulacion\\moodle/calendar/classes/type_factory.php',
+    'core_calendar_type_base' => 'C:\\xampp\\htdocs\\simulacion\\moodle/calendar/classes/type_base.php',
+    'core_calendar_type_factory' => 'C:\\xampp\\htdocs\\simulacion\\moodle/calendar/classes/type_factory.php',
+    'core_collator' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/collator.php',
+    'core_component' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/component.php',
+    'core_course\\deletecategory_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/classes/deletecategory_form.php',
+    'core_course\\editcategory_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/classes/editcategory_form.php',
+    'core_course\\management\\helper' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/classes/management/helper.php',
+    'core_course\\management_renderer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/classes/management_renderer.php',
+    'core_course_deletecategory_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/classes/deletecategory_form.php',
+    'core_course_editcategory_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/classes/editcategory_form.php',
+    'core_course_management_renderer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/classes/management_renderer.php',
+    'core_minify' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/minify.php',
+    'core_plugin_manager' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/plugin_manager.php',
+    'core_question\\statistics\\questions\\calculated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/classes/statistics/questions/calculated.php',
+    'core_question\\statistics\\questions\\calculated_for_subquestion' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/classes/statistics/questions/calculated_for_subquestion.php',
+    'core_question\\statistics\\questions\\calculator' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/classes/statistics/questions/calculator.php',
+    'core_question\\statistics\\responses\\analyser' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/classes/statistics/responses/analyser.php',
+    'core_question\\statistics\\responses\\analysis_for_actual_response' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/classes/statistics/responses/analysis_for_actual_response.php',
+    'core_question\\statistics\\responses\\analysis_for_class' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/classes/statistics/responses/analysis_for_class.php',
+    'core_question\\statistics\\responses\\analysis_for_question' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/classes/statistics/responses/analysis_for_question.php',
+    'core_question\\statistics\\responses\\analysis_for_subpart' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/classes/statistics/responses/analysis_for_subpart.php',
+    'core_role\\admins_existing_selector' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/admins_existing_selector.php',
+    'core_role\\admins_potential_selector' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/admins_potential_selector.php',
+    'core_role\\allow_assign_page' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/allow_assign_page.php',
+    'core_role\\allow_override_page' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/allow_override_page.php',
+    'core_role\\allow_role_page' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/allow_role_page.php',
+    'core_role\\allow_switch_page' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/allow_switch_page.php',
+    'core_role\\assign_user_selector_base' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/assign_user_selector_base.php',
+    'core_role\\capability_table_base' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/capability_table_base.php',
+    'core_role\\capability_table_with_risks' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/capability_table_with_risks.php',
+    'core_role\\check_capability_table' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/check_capability_table.php',
+    'core_role\\check_users_selector' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/check_users_selector.php',
+    'core_role\\define_role_table_advanced' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/define_role_table_advanced.php',
+    'core_role\\define_role_table_basic' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/define_role_table_basic.php',
+    'core_role\\existing_role_holders' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/existing_role_holders.php',
+    'core_role\\override_permissions_table_advanced' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/override_permissions_table_advanced.php',
+    'core_role\\permission_allow_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/permission_allow_form.php',
+    'core_role\\permission_prohibit_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/permission_prohibit_form.php',
+    'core_role\\permissions_table' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/permissions_table.php',
+    'core_role\\potential_assignees_below_course' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/potential_assignees_below_course.php',
+    'core_role\\potential_assignees_course_and_above' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/potential_assignees_course_and_above.php',
+    'core_role\\preset' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/preset.php',
+    'core_role\\preset_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/preset_form.php',
+    'core_role\\view_role_definition_table' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/view_role_definition_table.php',
+    'core_role_admins_existing_selector' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/admins_existing_selector.php',
+    'core_role_admins_potential_selector' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/admins_potential_selector.php',
+    'core_role_allow_assign_page' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/allow_assign_page.php',
+    'core_role_allow_override_page' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/allow_override_page.php',
+    'core_role_allow_role_page' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/allow_role_page.php',
+    'core_role_allow_switch_page' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/allow_switch_page.php',
+    'core_role_assign_user_selector_base' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/assign_user_selector_base.php',
+    'core_role_capability_table_base' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/capability_table_base.php',
+    'core_role_capability_table_with_risks' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/capability_table_with_risks.php',
+    'core_role_check_capability_table' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/check_capability_table.php',
+    'core_role_check_users_selector' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/check_users_selector.php',
+    'core_role_define_role_table_advanced' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/define_role_table_advanced.php',
+    'core_role_define_role_table_basic' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/define_role_table_basic.php',
+    'core_role_existing_role_holders' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/existing_role_holders.php',
+    'core_role_override_permissions_table_advanced' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/override_permissions_table_advanced.php',
+    'core_role_permission_allow_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/permission_allow_form.php',
+    'core_role_permission_prohibit_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/permission_prohibit_form.php',
+    'core_role_permissions_table' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/permissions_table.php',
+    'core_role_potential_assignees_below_course' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/potential_assignees_below_course.php',
+    'core_role_potential_assignees_course_and_above' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/potential_assignees_course_and_above.php',
+    'core_role_preset' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/preset.php',
+    'core_role_preset_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/preset_form.php',
+    'core_role_view_role_definition_table' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/roles/classes/view_role_definition_table.php',
+    'core_shutdown_manager' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/shutdown_manager.php',
+    'core_string_manager' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/string_manager.php',
+    'core_string_manager_install' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/string_manager_install.php',
+    'core_string_manager_standard' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/string_manager_standard.php',
+    'core_text' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/text.php',
+    'core_user' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/user.php',
+    'core_useragent' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/useragent.php',
+    'editor_tinymce\\plugin' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/classes/plugin.php',
+    'editor_tinymce\\plugininfo\\tinymce' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/classes/plugininfo/tinymce.php',
+    'editor_tinymce_plugin' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/classes/plugin.php',
+    'enrol_category\\observer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/category/classes/observer.php',
+    'enrol_category_observer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/category/classes/observer.php',
+    'enrol_meta\\observer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/meta/classes/observer.php',
+    'enrol_meta_observer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/meta/classes/observer.php',
+    'mod_assign\\event\\all_submissions_downloaded' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/all_submissions_downloaded.php',
+    'mod_assign\\event\\assessable_submitted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/assessable_submitted.php',
+    'mod_assign\\event\\extension_granted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/extension_granted.php',
+    'mod_assign\\event\\identities_revealed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/identities_revealed.php',
+    'mod_assign\\event\\marker_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/marker_updated.php',
+    'mod_assign\\event\\statement_accepted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/statement_accepted.php',
+    'mod_assign\\event\\submission_duplicated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/submission_duplicated.php',
+    'mod_assign\\event\\submission_graded' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/submission_graded.php',
+    'mod_assign\\event\\submission_locked' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/submission_locked.php',
+    'mod_assign\\event\\submission_status_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/submission_status_updated.php',
+    'mod_assign\\event\\submission_unlocked' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/submission_unlocked.php',
+    'mod_assign\\event\\submission_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/submission_updated.php',
+    'mod_assign\\event\\workflow_state_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/event/workflow_state_updated.php',
+    'mod_assign\\plugininfo\\assignfeedback' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/plugininfo/assignfeedback.php',
+    'mod_assign\\plugininfo\\assignsubmission' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/classes/plugininfo/assignsubmission.php',
+    'mod_assignment\\plugininfo\\assignment' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assignment/classes/plugininfo/assignment.php',
+    'mod_book\\event\\chapter_created' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/classes/event/chapter_created.php',
+    'mod_book\\event\\chapter_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/classes/event/chapter_deleted.php',
+    'mod_book\\event\\chapter_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/classes/event/chapter_updated.php',
+    'mod_book\\event\\chapter_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/classes/event/chapter_viewed.php',
+    'mod_book\\event\\course_module_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/classes/event/course_module_viewed.php',
+    'mod_book\\event\\instances_list_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/classes/event/instances_list_viewed.php',
+    'mod_book\\plugininfo\\booktool' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/classes/plugininfo/booktool.php',
+    'mod_chat\\event\\instances_list_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/chat/classes/event/instances_list_viewed.php',
+    'mod_chat\\event\\message_sent' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/chat/classes/event/message_sent.php',
+    'mod_chat\\event\\sessions_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/chat/classes/event/sessions_viewed.php',
+    'mod_choice\\event\\answer_submitted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/choice/classes/event/answer_submitted.php',
+    'mod_choice\\event\\answer_updated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/choice/classes/event/answer_updated.php',
+    'mod_choice\\event\\course_module_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/choice/classes/event/course_module_viewed.php',
+    'mod_choice\\event\\instances_list_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/choice/classes/event/instances_list_viewed.php',
+    'mod_choice\\event\\report_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/choice/classes/event/report_viewed.php',
+    'mod_data\\plugininfo\\datafield' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/classes/plugininfo/datafield.php',
+    'mod_data\\plugininfo\\datapreset' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/classes/plugininfo/datapreset.php',
+    'mod_feedback\\event\\course_module_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/feedback/classes/event/course_module_viewed.php',
+    'mod_feedback\\event\\instances_list_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/feedback/classes/event/instances_list_viewed.php',
+    'mod_feedback\\event\\response_deleted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/feedback/classes/event/response_deleted.php',
+    'mod_feedback\\event\\response_submitted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/feedback/classes/event/response_submitted.php',
+    'mod_forum\\event\\assessable_uploaded' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/forum/classes/event/assessable_uploaded.php',
+    'mod_forum\\observer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/forum/classes/observer.php',
+    'mod_forum\\post_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/forum/classes/post_form.php',
+    'mod_forum_observer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/forum/classes/observer.php',
+    'mod_forum_post_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/forum/classes/post_form.php',
+    'mod_lesson\\file_info' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/lesson/classes/file_info.php',
+    'mod_lesson_file_info' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/lesson/classes/file_info.php',
+    'mod_lti\\event\\unknown_service_api_called' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/lti/classes/event/unknown_service_api_called.php',
+    'mod_lti\\plugininfo\\ltisource' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/lti/classes/plugininfo/ltisource.php',
+    'mod_page\\event\\course_module_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/page/classes/event/course_module_viewed.php',
+    'mod_page\\event\\instances_list_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/page/classes/event/instances_list_viewed.php',
+    'mod_quiz\\admin_review_setting' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/admin_review_setting.php',
+    'mod_quiz\\admin_setting_browsersecurity' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/admin_setting_browsersecurity.php',
+    'mod_quiz\\admin_setting_grademethod' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/admin_setting_grademethod.php',
+    'mod_quiz\\admin_setting_overduehandling' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/admin_setting_overduehandling.php',
+    'mod_quiz\\admin_setting_user_image' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/admin_setting_user_image.php',
+    'mod_quiz\\event\\attempt_abandoned' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/event/attempt_abandoned.php',
+    'mod_quiz\\event\\attempt_becameoverdue' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/event/attempt_becameoverdue.php',
+    'mod_quiz\\event\\attempt_started' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/event/attempt_started.php',
+    'mod_quiz\\event\\attempt_submitted' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/event/attempt_submitted.php',
+    'mod_quiz\\group_observers' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/group_observers.php',
+    'mod_quiz\\plugininfo\\quiz' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/plugininfo/quiz.php',
+    'mod_quiz\\plugininfo\\quizaccess' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/plugininfo/quizaccess.php',
+    'mod_quiz_admin_review_setting' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/admin_review_setting.php',
+    'mod_quiz_admin_setting_browsersecurity' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/admin_setting_browsersecurity.php',
+    'mod_quiz_admin_setting_grademethod' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/admin_setting_grademethod.php',
+    'mod_quiz_admin_setting_overduehandling' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/admin_setting_overduehandling.php',
+    'mod_quiz_admin_setting_user_image' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/admin_setting_user_image.php',
+    'mod_quiz_group_observers' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/classes/group_observers.php',
+    'mod_scorm\\plugininfo\\scormreport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/scorm/classes/plugininfo/scormreport.php',
+    'mod_workshop\\event\\assessable_uploaded' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/classes/event/assessable_uploaded.php',
+    'mod_workshop\\event\\course_module_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/classes/event/course_module_viewed.php',
+    'mod_workshop\\plugininfo\\workshopallocation' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/classes/plugininfo/workshopallocation.php',
+    'mod_workshop\\plugininfo\\workshopeval' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/classes/plugininfo/workshopeval.php',
+    'mod_workshop\\plugininfo\\workshopform' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/classes/plugininfo/workshopform.php',
+    'quiz_statistics\\calculated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/report/statistics/classes/calculated.php',
+    'quiz_statistics\\calculator' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/report/statistics/classes/calculator.php',
+    'quiz_statistics_calculated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/report/statistics/classes/calculated.php',
+    'quiz_statistics_calculator' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/report/statistics/classes/calculator.php',
+    'report_log\\event\\content_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/log/classes/event/content_viewed.php',
+    'report_loglive\\event\\content_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/loglive/classes/event/content_viewed.php',
+    'report_outline\\event\\content_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/outline/classes/event/content_viewed.php',
+    'report_participation\\event\\content_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/participation/classes/event/content_viewed.php',
+    'report_stats\\event\\content_viewed' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/stats/classes/event/content_viewed.php',
+    'textlib' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/classes/text.php',
+    'tinymce_spellchecker\\EnchantSpell' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/EnchantSpell.php',
+    'tinymce_spellchecker\\GoogleSpell' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/GoogleSpell.php',
+    'tinymce_spellchecker\\PSpell' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/PSpell.php',
+    'tinymce_spellchecker\\PSpellShell' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/PSpellShell.php',
+    'tinymce_spellchecker\\SpellChecker' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/SpellChecker.php',
+    'tinymce_spellchecker\\utils\\JSON' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/utils/JSON.php',
+    'tinymce_spellchecker\\utils\\Logger' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/utils/Logger.php',
+    'tinymce_spellchecker_EnchantSpell' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/EnchantSpell.php',
+    'tinymce_spellchecker_GoogleSpell' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/GoogleSpell.php',
+    'tinymce_spellchecker_PSpell' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/PSpell.php',
+    'tinymce_spellchecker_PSpellShell' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/PSpellShell.php',
+    'tinymce_spellchecker_SpellChecker' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/SpellChecker.php',
+    'tool_capability\\settings_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/capability/classes/settings_form.php',
+    'tool_capability_settings_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/capability/classes/settings_form.php',
+    'tool_generator\\backend' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/classes/backend.php',
+    'tool_generator\\course_backend' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/classes/course_backend.php',
+    'tool_generator\\make_course_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/classes/make_course_form.php',
+    'tool_generator\\make_testplan_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/classes/make_testplan_form.php',
+    'tool_generator\\site_backend' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/classes/site_backend.php',
+    'tool_generator\\testplan_backend' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/classes/testplan_backend.php',
+    'tool_generator_backend' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/classes/backend.php',
+    'tool_generator_course_backend' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/classes/course_backend.php',
+    'tool_generator_make_course_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/classes/make_course_form.php',
+    'tool_generator_make_testplan_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/classes/make_testplan_form.php',
+    'tool_generator_site_backend' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/classes/site_backend.php',
+    'tool_generator_testplan_backend' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/classes/testplan_backend.php',
+    'tool_installaddon\\installer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/installaddon/classes/installer.php',
+    'tool_installaddon\\installfromzip_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/installaddon/classes/installfromzip_form.php',
+    'tool_installaddon\\pluginfo_client' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/installaddon/classes/pluginfo_client.php',
+    'tool_installaddon\\validator' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/installaddon/classes/validator.php',
+    'tool_installaddon_installer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/installaddon/classes/installer.php',
+    'tool_installaddon_installfromzip_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/installaddon/classes/installfromzip_form.php',
+    'tool_installaddon_pluginfo_client' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/installaddon/classes/pluginfo_client.php',
+    'tool_installaddon_validator' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/installaddon/classes/validator.php',
+    'tool_replace\\form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/replace/classes/form.php',
+    'tool_replace_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/replace/classes/form.php',
+    'tool_uploadcourse\\base_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/base_form.php',
+    'tool_uploadcourse\\course' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/course.php',
+    'tool_uploadcourse\\helper' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/helper.php',
+    'tool_uploadcourse\\processor' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/processor.php',
+    'tool_uploadcourse\\step1_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/step1_form.php',
+    'tool_uploadcourse\\step2_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/step2_form.php',
+    'tool_uploadcourse\\tracker' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/tracker.php',
+    'tool_uploadcourse_base_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/base_form.php',
+    'tool_uploadcourse_course' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/course.php',
+    'tool_uploadcourse_helper' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/helper.php',
+    'tool_uploadcourse_processor' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/processor.php',
+    'tool_uploadcourse_step1_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/step1_form.php',
+    'tool_uploadcourse_step2_form' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/step2_form.php',
+    'tool_uploadcourse_tracker' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/classes/tracker.php',
+    'workshopallocation_scheduled\\observer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/allocation/scheduled/classes/observer.php',
+    'workshopallocation_scheduled_observer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/allocation/scheduled/classes/observer.php',
+  ),
+  'filemap' => 
+  array (
+    'lib.php' => 
+    array (
+      'qtype' => 
+      array (
+        'calculated' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/calculated/lib.php',
+        'calculatedmulti' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/calculatedmulti/lib.php',
+        'calculatedsimple' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/calculatedsimple/lib.php',
+        'essay' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/essay/lib.php',
+        'match' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/match/lib.php',
+        'multichoice' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/multichoice/lib.php',
+        'numerical' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/numerical/lib.php',
+        'randomsamatch' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/randomsamatch/lib.php',
+        'shortanswer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/shortanswer/lib.php',
+        'truefalse' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/type/truefalse/lib.php',
+      ),
+      'mod' => 
+      array (
+        'assign' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/lib.php',
+        'assignment' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assignment/lib.php',
+        'book' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/lib.php',
+        'chat' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/chat/lib.php',
+        'choice' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/choice/lib.php',
+        'data' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/lib.php',
+        'feedback' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/feedback/lib.php',
+        'folder' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/folder/lib.php',
+        'forum' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/forum/lib.php',
+        'glossary' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/glossary/lib.php',
+        'imscp' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/imscp/lib.php',
+        'label' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/label/lib.php',
+        'lesson' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/lesson/lib.php',
+        'lti' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/lti/lib.php',
+        'page' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/page/lib.php',
+        'quiz' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/lib.php',
+        'resource' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/resource/lib.php',
+        'scorm' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/scorm/lib.php',
+        'survey' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/survey/lib.php',
+        'url' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/url/lib.php',
+        'wiki' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/wiki/lib.php',
+        'workshop' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/lib.php',
+      ),
+      'auth' => 
+      array (
+      ),
+      'calendartype' => 
+      array (
+      ),
+      'enrol' => 
+      array (
+        'category' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/category/lib.php',
+        'cohort' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/cohort/lib.php',
+        'database' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/database/lib.php',
+        'flatfile' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/flatfile/lib.php',
+        'guest' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/guest/lib.php',
+        'imsenterprise' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/imsenterprise/lib.php',
+        'ldap' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/ldap/lib.php',
+        'manual' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/manual/lib.php',
+        'meta' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/meta/lib.php',
+        'mnet' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/mnet/lib.php',
+        'paypal' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/paypal/lib.php',
+        'self' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/self/lib.php',
+      ),
+      'message' => 
+      array (
+      ),
+      'block' => 
+      array (
+        'comments' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/comments/lib.php',
+        'html' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/html/lib.php',
+      ),
+      'filter' => 
+      array (
+        'tex' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/tex/lib.php',
+      ),
+      'editor' => 
+      array (
+        'textarea' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/textarea/lib.php',
+        'tinymce' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/lib.php',
+      ),
+      'format' => 
+      array (
+        'singleactivity' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/format/singleactivity/lib.php',
+        'social' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/format/social/lib.php',
+        'topics' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/format/topics/lib.php',
+        'weeks' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/format/weeks/lib.php',
+      ),
+      'profilefield' => 
+      array (
+      ),
+      'report' => 
+      array (
+        'completion' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/completion/lib.php',
+        'log' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/log/lib.php',
+        'loglive' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/loglive/lib.php',
+        'outline' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/outline/lib.php',
+        'participation' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/participation/lib.php',
+        'progress' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/progress/lib.php',
+        'stats' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/stats/lib.php',
+      ),
+      'coursereport' => 
+      array (
+      ),
+      'gradeexport' => 
+      array (
+      ),
+      'gradeimport' => 
+      array (
+        'xml' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/import/xml/lib.php',
+      ),
+      'gradereport' => 
+      array (
+        'grader' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/report/grader/lib.php',
+        'overview' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/report/overview/lib.php',
+        'user' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/report/user/lib.php',
+      ),
+      'gradingform' => 
+      array (
+        'guide' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/grading/form/guide/lib.php',
+        'rubric' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/grading/form/rubric/lib.php',
+      ),
+      'mnetservice' => 
+      array (
+      ),
+      'webservice' => 
+      array (
+        'rest' => 'C:\\xampp\\htdocs\\simulacion\\moodle/webservice/rest/lib.php',
+        'soap' => 'C:\\xampp\\htdocs\\simulacion\\moodle/webservice/soap/lib.php',
+        'xmlrpc' => 'C:\\xampp\\htdocs\\simulacion\\moodle/webservice/xmlrpc/lib.php',
+      ),
+      'repository' => 
+      array (
+        'alfresco' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/alfresco/lib.php',
+        'areafiles' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/areafiles/lib.php',
+        'boxnet' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/boxnet/lib.php',
+        'coursefiles' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/coursefiles/lib.php',
+        'dropbox' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/dropbox/lib.php',
+        'equella' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/equella/lib.php',
+        'filesystem' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/filesystem/lib.php',
+        'flickr' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/flickr/lib.php',
+        'flickr_public' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/flickr_public/lib.php',
+        'googledocs' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/googledocs/lib.php',
+        'local' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/local/lib.php',
+        'merlot' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/merlot/lib.php',
+        'picasa' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/picasa/lib.php',
+        'recent' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/recent/lib.php',
+        's3' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/s3/lib.php',
+        'skydrive' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/skydrive/lib.php',
+        'upload' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/upload/lib.php',
+        'url' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/url/lib.php',
+        'user' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/user/lib.php',
+        'webdav' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/webdav/lib.php',
+        'wikimedia' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/wikimedia/lib.php',
+        'youtube' => 'C:\\xampp\\htdocs\\simulacion\\moodle/repository/youtube/lib.php',
+      ),
+      'portfolio' => 
+      array (
+        'boxnet' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio/boxnet/lib.php',
+        'download' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio/download/lib.php',
+        'flickr' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio/flickr/lib.php',
+        'googledocs' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio/googledocs/lib.php',
+        'mahara' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio/mahara/lib.php',
+        'picasa' => 'C:\\xampp\\htdocs\\simulacion\\moodle/portfolio/picasa/lib.php',
+      ),
+      'qbehaviour' => 
+      array (
+      ),
+      'qformat' => 
+      array (
+        'xhtml' => 'C:\\xampp\\htdocs\\simulacion\\moodle/question/format/xhtml/lib.php',
+      ),
+      'plagiarism' => 
+      array (
+      ),
+      'tool' => 
+      array (
+        'customlang' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/customlang/lib.php',
+        'generator' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/lib.php',
+        'langimport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/langimport/lib.php',
+        'qeupgradehelper' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/qeupgradehelper/lib.php',
+      ),
+      'cachestore' => 
+      array (
+        'file' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/file/lib.php',
+        'memcache' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/memcache/lib.php',
+        'memcached' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/memcached/lib.php',
+        'mongodb' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/mongodb/lib.php',
+        'session' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/session/lib.php',
+        'static' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/static/lib.php',
+      ),
+      'cachelock' => 
+      array (
+        'file' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/locks/file/lib.php',
+      ),
+      'theme' => 
+      array (
+        'afterburner' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/afterburner/lib.php',
+        'anomaly' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/anomaly/lib.php',
+        'arialist' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/arialist/lib.php',
+        'brick' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/brick/lib.php',
+        'clean' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/clean/lib.php',
+        'formal_white' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/formal_white/lib.php',
+        'fusion' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/fusion/lib.php',
+        'magazine' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/magazine/lib.php',
+        'nimble' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/nimble/lib.php',
+        'nonzero' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/nonzero/lib.php',
+        'overlay' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/overlay/lib.php',
+        'sky_high' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/sky_high/lib.php',
+        'splash' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/splash/lib.php',
+      ),
+      'assignsubmission' => 
+      array (
+        'comments' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/submission/comments/lib.php',
+        'file' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/submission/file/lib.php',
+        'onlinetext' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/submission/onlinetext/lib.php',
+      ),
+      'assignfeedback' => 
+      array (
+        'editpdf' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/lib.php',
+        'file' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/file/lib.php',
+      ),
+      'assignment' => 
+      array (
+      ),
+      'booktool' => 
+      array (
+        'exportimscp' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/tool/exportimscp/lib.php',
+        'importhtml' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/tool/importhtml/lib.php',
+        'print' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/tool/print/lib.php',
+      ),
+      'datafield' => 
+      array (
+      ),
+      'datapreset' => 
+      array (
+      ),
+      'ltisource' => 
+      array (
+      ),
+      'quiz' => 
+      array (
+        'statistics' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/report/statistics/lib.php',
+      ),
+      'quizaccess' => 
+      array (
+      ),
+      'scormreport' => 
+      array (
+      ),
+      'workshopform' => 
+      array (
+        'accumulative' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/form/accumulative/lib.php',
+        'comments' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/form/comments/lib.php',
+        'numerrors' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/form/numerrors/lib.php',
+        'rubric' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/form/rubric/lib.php',
+      ),
+      'workshopallocation' => 
+      array (
+        'manual' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/allocation/manual/lib.php',
+        'random' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/allocation/random/lib.php',
+        'scheduled' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/allocation/scheduled/lib.php',
+      ),
+      'workshopeval' => 
+      array (
+        'best' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/eval/best/lib.php',
+      ),
+      'tinymce' => 
+      array (
+        'ctrlhelp' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/ctrlhelp/lib.php',
+        'dragmath' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/dragmath/lib.php',
+        'managefiles' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/managefiles/lib.php',
+        'moodleemoticon' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/moodleemoticon/lib.php',
+        'moodleimage' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/moodleimage/lib.php',
+        'moodlemedia' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/moodlemedia/lib.php',
+        'moodlenolink' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/moodlenolink/lib.php',
+        'pdw' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/pdw/lib.php',
+        'spellchecker' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/lib.php',
+        'wrap' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/wrap/lib.php',
+      ),
+      'local' => 
+      array (
+      ),
+    ),
+    'settings.php' => 
+    array (
+      'qtype' => 
+      array (
+      ),
+      'mod' => 
+      array (
+        'assign' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/settings.php',
+        'assignment' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assignment/settings.php',
+        'book' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/book/settings.php',
+        'chat' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/chat/settings.php',
+        'data' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/data/settings.php',
+        'feedback' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/feedback/settings.php',
+        'folder' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/folder/settings.php',
+        'forum' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/forum/settings.php',
+        'glossary' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/glossary/settings.php',
+        'imscp' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/imscp/settings.php',
+        'label' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/label/settings.php',
+        'lesson' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/lesson/settings.php',
+        'lti' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/lti/settings.php',
+        'page' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/page/settings.php',
+        'quiz' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/quiz/settings.php',
+        'resource' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/resource/settings.php',
+        'scorm' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/scorm/settings.php',
+        'url' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/url/settings.php',
+        'workshop' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/settings.php',
+      ),
+      'auth' => 
+      array (
+      ),
+      'calendartype' => 
+      array (
+      ),
+      'enrol' => 
+      array (
+        'category' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/category/settings.php',
+        'cohort' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/cohort/settings.php',
+        'database' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/database/settings.php',
+        'flatfile' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/flatfile/settings.php',
+        'guest' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/guest/settings.php',
+        'imsenterprise' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/imsenterprise/settings.php',
+        'ldap' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/ldap/settings.php',
+        'manual' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/manual/settings.php',
+        'meta' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/meta/settings.php',
+        'mnet' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/mnet/settings.php',
+        'paypal' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/paypal/settings.php',
+        'self' => 'C:\\xampp\\htdocs\\simulacion\\moodle/enrol/self/settings.php',
+      ),
+      'message' => 
+      array (
+        'email' => 'C:\\xampp\\htdocs\\simulacion\\moodle/message/output/email/settings.php',
+        'jabber' => 'C:\\xampp\\htdocs\\simulacion\\moodle/message/output/jabber/settings.php',
+      ),
+      'block' => 
+      array (
+        'course_list' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/course_list/settings.php',
+        'course_overview' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/course_overview/settings.php',
+        'html' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/html/settings.php',
+        'online_users' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/online_users/settings.php',
+        'rss_client' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/rss_client/settings.php',
+        'section_links' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/section_links/settings.php',
+        'tags' => 'C:\\xampp\\htdocs\\simulacion\\moodle/blocks/tags/settings.php',
+      ),
+      'filter' => 
+      array (
+        'censor' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/censor/settings.php',
+        'emoticon' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/emoticon/settings.php',
+        'multilang' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/multilang/settings.php',
+        'tex' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/tex/settings.php',
+        'urltolink' => 'C:\\xampp\\htdocs\\simulacion\\moodle/filter/urltolink/settings.php',
+      ),
+      'editor' => 
+      array (
+        'tinymce' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/settings.php',
+      ),
+      'format' => 
+      array (
+        'singleactivity' => 'C:\\xampp\\htdocs\\simulacion\\moodle/course/format/singleactivity/settings.php',
+      ),
+      'profilefield' => 
+      array (
+      ),
+      'report' => 
+      array (
+        'backups' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/backups/settings.php',
+        'configlog' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/configlog/settings.php',
+        'courseoverview' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/courseoverview/settings.php',
+        'log' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/log/settings.php',
+        'loglive' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/loglive/settings.php',
+        'performance' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/performance/settings.php',
+        'questioninstances' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/questioninstances/settings.php',
+        'security' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/security/settings.php',
+        'stats' => 'C:\\xampp\\htdocs\\simulacion\\moodle/report/stats/settings.php',
+      ),
+      'coursereport' => 
+      array (
+      ),
+      'gradeexport' => 
+      array (
+      ),
+      'gradeimport' => 
+      array (
+      ),
+      'gradereport' => 
+      array (
+        'grader' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/report/grader/settings.php',
+        'overview' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/report/overview/settings.php',
+        'user' => 'C:\\xampp\\htdocs\\simulacion\\moodle/grade/report/user/settings.php',
+      ),
+      'gradingform' => 
+      array (
+      ),
+      'mnetservice' => 
+      array (
+      ),
+      'webservice' => 
+      array (
+      ),
+      'repository' => 
+      array (
+      ),
+      'portfolio' => 
+      array (
+      ),
+      'qbehaviour' => 
+      array (
+      ),
+      'qformat' => 
+      array (
+      ),
+      'plagiarism' => 
+      array (
+      ),
+      'tool' => 
+      array (
+        'assignmentupgrade' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/assignmentupgrade/settings.php',
+        'behat' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/behat/settings.php',
+        'capability' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/capability/settings.php',
+        'customlang' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/customlang/settings.php',
+        'dbtransfer' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/dbtransfer/settings.php',
+        'generator' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/generator/settings.php',
+        'health' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/health/settings.php',
+        'innodb' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/innodb/settings.php',
+        'installaddon' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/installaddon/settings.php',
+        'langimport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/langimport/settings.php',
+        'multilangupgrade' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/multilangupgrade/settings.php',
+        'phpunit' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/phpunit/settings.php',
+        'profiling' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/profiling/settings.php',
+        'qeupgradehelper' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/qeupgradehelper/settings.php',
+        'replace' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/replace/settings.php',
+        'spamcleaner' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/spamcleaner/settings.php',
+        'timezoneimport' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/timezoneimport/settings.php',
+        'unsuproles' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/unsuproles/settings.php',
+        'uploadcourse' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploadcourse/settings.php',
+        'uploaduser' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/uploaduser/settings.php',
+        'xmldb' => 'C:\\xampp\\htdocs\\simulacion\\moodle/admin/tool/xmldb/settings.php',
+      ),
+      'cachestore' => 
+      array (
+        'memcache' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/memcache/settings.php',
+        'memcached' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/memcached/settings.php',
+        'mongodb' => 'C:\\xampp\\htdocs\\simulacion\\moodle/cache/stores/mongodb/settings.php',
+      ),
+      'cachelock' => 
+      array (
+      ),
+      'theme' => 
+      array (
+        'afterburner' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/afterburner/settings.php',
+        'anomaly' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/anomaly/settings.php',
+        'arialist' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/arialist/settings.php',
+        'brick' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/brick/settings.php',
+        'clean' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/clean/settings.php',
+        'formal_white' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/formal_white/settings.php',
+        'fusion' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/fusion/settings.php',
+        'magazine' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/magazine/settings.php',
+        'nimble' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/nimble/settings.php',
+        'nonzero' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/nonzero/settings.php',
+        'overlay' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/overlay/settings.php',
+        'sky_high' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/sky_high/settings.php',
+        'splash' => 'C:\\xampp\\htdocs\\simulacion\\moodle/theme/splash/settings.php',
+      ),
+      'assignsubmission' => 
+      array (
+        'file' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/submission/file/settings.php',
+        'onlinetext' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/submission/onlinetext/settings.php',
+      ),
+      'assignfeedback' => 
+      array (
+        'comments' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/comments/settings.php',
+        'editpdf' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/editpdf/settings.php',
+        'file' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/file/settings.php',
+        'offline' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/assign/feedback/offline/settings.php',
+      ),
+      'assignment' => 
+      array (
+      ),
+      'booktool' => 
+      array (
+      ),
+      'datafield' => 
+      array (
+      ),
+      'datapreset' => 
+      array (
+      ),
+      'ltisource' => 
+      array (
+      ),
+      'quiz' => 
+      array (
+      ),
+      'quizaccess' => 
+      array (
+      ),
+      'scormreport' => 
+      array (
+      ),
+      'workshopform' => 
+      array (
+        'numerrors' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/form/numerrors/settings.php',
+      ),
+      'workshopallocation' => 
+      array (
+        'random' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/allocation/random/settings.php',
+      ),
+      'workshopeval' => 
+      array (
+        'best' => 'C:\\xampp\\htdocs\\simulacion\\moodle/mod/workshop/eval/best/settings.php',
+      ),
+      'tinymce' => 
+      array (
+        'dragmath' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/dragmath/settings.php',
+        'moodleemoticon' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/moodleemoticon/settings.php',
+        'spellchecker' => 'C:\\xampp\\htdocs\\simulacion\\moodle/lib/editor/tinymce/plugins/spellchecker/settings.php',
+      ),
+      'local' => 
+      array (
+      ),
+    ),
+  ),
+  'version' => 2013111811.01,
+);
