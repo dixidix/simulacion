@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html ng-app="cscw">
+<head>
+	<title>Sharefiles</title>
+	<link rel="icon" type="image/png" href="./styles/mixcloud.png">
+	<link href="./styles/main.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="./styles/materialize.min.css">	
+	<link href="./styles/icon.css" rel="stylesheet">
+</head>
+<body data-ng-controller="mainController" class="cyan">
+
+	<nav>
+
+		<div class="nav-wrapper  cyan darken-4">
+		<img class="brand-logo" style="top:6px;left:8px;" src="./styles/mixcloud.png" height="50" width="50">
+			<a href="#" ui-sref="home" class="brand-logo" style="padding-left: 70px;">	ShareFiles</a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="#" ui-sref="home">Home </a></li>
+				<li ng-show="showUser"><a href="#" ui-sref="messages">Mis Mensajes </a></li>
+				<li ng-show="showUser"><a href="#" ui-sref="posts">Mis Archivos </a></li>
+				<li ng-show="!showUser"><a href="#login" modal>Ingresar en Moodle</a></li>
+				<li ng-show="showUser"><a href="#"> {{ userLogged }}</a></li>
+				<li ng-show="showUser"><a href="http://localhost/moodle/login/logout.php" data-ng-click="clearStorage()"> Salir de Moodle</a></li>	
+			</ul>
+		</div>
+	</nav>
+	<ul id="slide-out" class="side-nav fixed">
+		<li><a>Usuarios Conectados: {{usersActives.length}}</a></li>
+		<li ng-repeat="userActive in usersActives track by $index">
+			<a class="flow-text" style="cursor:default;"><i class="material-icons prefix small orange-text" style="vertical-align:middle;margin-right:10px;">face</i> {{userActive.firstname}} {{userActive.lastname}}</a></li>
+		</ul>
+		<a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+		<div class="row content">
+			<div class="col s9">
+				<div ui-view></div>
+			</div>
+		</div>
+		<div id="login" class="modal" style="width:30%;min-height:550px!important;">
+		<div class="imglogin"><img  style="max-width: 35%;margin-left: 33%;margin-top: 10%;position: absolute;" src="./styles/mixcloud.png"></div>
+			<form style="margin-top: 53%;" class="col s12" action="http://localhost/moodle/login/index.php" method="post" name="form" id="form">
+				<div class="modal-content">
+					<div class="row">					
+						<div class="row">
+							<div class="input-field col s12">						
+								<input id="last_name" type="text" ng-model="user.username" name="username" class="validate" autocomplete="off">
+								<label for="last_name">Usuario</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="last_name" type="password" ng-model="user.password" name="password" class="validate" autocomplete="off">
+								<label for="last_name">Contrase&ntilde;a</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
+					<a id="login" href="javascript:$('form').submit();" ng-click="setCurrentUser(user)" class="waves-effect waves-cyan btn">Ingresar</a>
+				</div>
+			</form>
+		</div>
+	</body>
+	<script type="text/javascript" src="./node_modules/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="./node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="./node_modules/materialize.min.js"></script>
+	<script type="text/javascript" src="./node_modules/angular-materialize/src/angular-materialize.js"></script>
+	<script type="text/javascript" src="./node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	</html>

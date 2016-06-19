@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -56,6 +55,7 @@ $errorcode = 0;
 
 // login page requested session test
 if ($testsession) {
+
     if ($testsession == $USER->id) {
         if (isset($SESSION->wantsurl)) {
             $urltogo = $SESSION->wantsurl;
@@ -118,8 +118,8 @@ if ($user !== false or $frm !== false or $errormsg !== '') {
 
 /// Check if the user has actually submitted login data to us
 
-if ($frm and isset($frm->username)) {                             // Login WITH cookies
-
+if ($frm and isset($frm->username)) {
+                             // Login WITH cookies
     $frm->username = trim(core_text::strtolower($frm->username));
 
     if (is_enabled_auth('none') ) {
@@ -131,6 +131,7 @@ if ($frm and isset($frm->username)) {                             // Login WITH 
     }
 
     if ($user) {
+
         //user already supplied by aut plugin prelogin hook
     } else if (($frm->username == 'guest') and empty($CFG->guestloginbutton)) {
         $user = false;    /// Can't log in as guest if guest button is disabled
@@ -343,6 +344,7 @@ if (isloggedin() and !isguestuser()) {
     // prevent logging when already logged in, we do not want them to relogin by accident because sesskey would be changed
     echo $OUTPUT->box_start();
     $logout = new single_button(new moodle_url($CFG->httpswwwroot.'/login/logout.php', array('sesskey'=>sesskey(),'loginpage'=>1)), get_string('logout'), 'post');
+    echo $logout;
     $continue = new single_button(new moodle_url($CFG->httpswwwroot.'/login/index.php', array('cancel'=>1)), get_string('cancel'), 'get');
     echo $OUTPUT->confirm(get_string('alreadyloggedin', 'error', fullname($USER)), $logout, $continue);
     echo $OUTPUT->box_end();

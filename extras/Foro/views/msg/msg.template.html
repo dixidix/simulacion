@@ -1,0 +1,57 @@
+<div class="card-panel white">
+	<a href="#sendMail"  data-ng-click="sendMail()" class="waves-effect waves-light btn right" modal>__<i class="material-icons" style="font-size:15px;">create</i> Escribir</a>
+	<a ui-sref="messages" class="waves-effect waves-blue btn-flat right" ui-sref-opts="{reload: true}"><i class="material-icons">refresh</i>Refresh</a><br>
+	<h4 class="black-text"><i class="material-icons">email</i> Mis Mensajes</h4>
+
+	<ul class="collapsible" data-collapsible="accordion" watch>
+		<li ng-repeat="email in emails">
+			<div class="collapsible-header">	
+				<div class="left">	
+					<i class="material-icons">account_circle</i>
+					<span style="font-weight:700;">Usuario:</span>{{email.firstname}} {{email.lastname}}
+				</div>
+				<div class="right">
+					<i class="material-icons">drafts</i>
+					<span style="font-weight:700;">Asunto:</span><span style="margin-right:40px;">{{email.subject}}</span>
+					<span style="font-weight:700;">Fecha:</span><span>{{email.timecreated * 1000 | date:'dd/MM/yyyy HH:mm'}}</span>
+				</div>
+			</div>
+			<div class="collapsible-body grey lighten-4">
+				<p>{{email.fullmessage}}</p>
+				<a href="#sendMail"  modal data-ng-click="sendMail(email)" class="waves-effect btn-flat green-text">Responder</a>
+				<a href="#/messages" 	data-ng-click="deleteMail(email.id)" class="waves-effect btn-flat red-text">Eliminar</a>
+			</div>
+		</li>
+	</ul>
+</div>
+<div id="sendMail" class="modal">
+	<div class="modal-content">
+		<div class="row">
+			<form class="col s12">
+				<div class="row">				
+					<div input-field>
+						<select class="" ng-model="emailContext.to"  material-select watch>
+						<option value="{{user.id}}" ng-selected="{{user.id == emailContext.to}}" ng-repeat="user in users track by user.id">{{user.firstname}} {{user.lastname}}</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="last_name" type="text" class="validate" ng-model="emailContext.subject">
+						<label for="last_name">Asunto</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<textarea id="textarea1" class="materialize-textarea" ng-model="emailContext.fullmessage"></textarea>
+						<label for="textarea1">Mensaje</label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<a href="#/messages" ui-sref="messages" ui-sref-opts="{reload: true}" class=" modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+		<a ui-sref="messages" ui-sref-opts="{reload: true}" ng-click="send(emailContext)" class=" modal-action modal-close waves-effect waves-green btn-flat">Enviar</a>
+	</div>
+</div>

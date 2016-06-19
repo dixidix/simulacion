@@ -1,0 +1,25 @@
+.side-nav.fixed{
+	left: auto !important;
+	right:0;
+	top: 64px;
+	max-height: 100vh;
+}
+
+nav{
+	top: 0;
+	z-index:9999;
+	position: fixed;
+}
+.content{
+	padding-top: 80px;
+	padding-left: 60px;
+}
+.modal{
+	z-index:99999!important;
+}
+.preview-text{
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

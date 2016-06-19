@@ -1,0 +1,58 @@
+	<div class="row">
+		<a class="waves-effect btn white cyan-text right" href="#addPost" modal><i class="material-icons prefix" style="position:absolute;left:5px;">note_add</i>Agregar Archivo</a>
+	</div>
+	<div class="card" ng-repeat="post in ownerPost">
+		<ul class="card-content collapsible" data-collapsible="accordion" watch>
+			<li>
+				<div class="collapsible-header" style="border-bottom:0;">
+				<p style="font-style: italic;color: #ccc;font-size: 13px;">{{post.created * 1000 | date:'dd/MM/yyyy HH:mm'}}</p>
+					<a class="waves-effect btn-flat orange-text right">Expandir</a>
+
+					<span class="card-title grey-text text-darken-4">
+						{{post.title}}
+					</span>				
+				</div>
+				<div class="collapsible-body grey lighten-4" style="border:1px solid #ccc;">
+					<p>
+						{{post.detail}}
+					</p>
+					<a href="{{post.filepath}}" target="_blank" class="waves-effect btn-flat blue-text" download="{{post.filesystemname}}">Descargar</a><a ui-sref="posts" ui-sref-opts="{reload: true}" class="waves-effect btn-flat red-text" data-ng-click="deletePost(post.postId)">Eliminar</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div id="addPost" class="modal">
+		<div class="modal-content">
+			<div class="row">
+				<form class="col s12">
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="last_name" type="text" ng-model="file.title" class="validate">
+							<label for="last_name">titulo</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<textarea id="textarea1" ng-model="file.detail"  class="materialize-textarea"></textarea>
+							<label for="textarea1">Descripci&oacute;n</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="file-field input-field">
+							<div class="btn">
+								<span>File</span>
+								<input type="file"  uploader-model="file.filepost">
+							</div>
+							<div class="file-path-wrapper">
+								<input class="file-path validate" type="text">
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<a ui-sref="posts" ui-sref-opts="{reload: true}" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
+			<a ui-sref="posts" ui-sref-opts="{reload: true}" data-ng-click="savePost(file)" class=" modal-action modal-close waves-effect waves-green btn-flat">Agregar</a>
+		</div>
+	</div>

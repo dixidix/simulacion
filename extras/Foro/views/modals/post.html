@@ -1,0 +1,11 @@
+<div class="modal-content">
+  <h4 class="light black-text">Sample Modal</h4>
+  <p ng-repeat="item in items">
+    <input type="radio" name="item" id="item-{{$index}}" value="{{item}}" ng-model="form.selectedItem"/>
+    <label for="item-{{$index}}">{{item}}</label>
+  </p>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn-flat" ng-click="select(form.selectedItem)">Select</button>
+  <button type="button" class="btn-flat" ng-click="cancel()">Cancel</button>
+</div>

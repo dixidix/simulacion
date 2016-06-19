@@ -1,4 +1,4 @@
-<?php
+si<?php
 
 $hassidepre = $PAGE->blocks->region_has_content('side-pre', $OUTPUT);
 $hassidepost = $PAGE->blocks->region_has_content('side-post', $OUTPUT);
@@ -66,6 +66,7 @@ echo $OUTPUT->doctype() ?>
                 <?php if ($hassidepost) { ?>
                 <td id="region-post" class="block-region">
                     <div class="region-content">
+                        <a href="#">sHAREfiles</a>
                         <?php echo $OUTPUT->blocks_for_region('side-post') ?>
                     </div>
                 </td>

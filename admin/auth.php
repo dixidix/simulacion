@@ -15,9 +15,7 @@ require_login();
 require_capability('moodle/site:config', context_system::instance());
 
 $returnurl = new moodle_url('/admin/settings.php', array('section'=>'manageauths'));
-
 $PAGE->set_url($returnurl);
-
 $action = optional_param('action', '', PARAM_ALPHANUMEXT);
 $auth   = optional_param('auth', '', PARAM_PLUGIN);
 
