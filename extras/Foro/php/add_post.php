@@ -1,6 +1,6 @@
 <?php
 require('./conn.php');
-
+require('./ftp_conn.php');
 $rows[] = array();
 $ownerId = $_POST['ownerId'];
 $title = $_POST['title'];
@@ -19,28 +19,25 @@ if(!empty($_FILES['filepost'])){
 	$fileSystemname= hash('sha256', $fileSystemname);
 	$fileSystemname = "$fileSystemname.$file_ext";
 	$tmp_path = "./../files/".$ownerId."/".$fileSystemname;
-	$path = "/foro/files/".$ownerId."/".$fileSystemname;
+	$path = "files/".$ownerId."/".$fileSystemname;
+	$ftp_path = $ownerId."/".$fileSystemname;
 }
-if(!file_exists("../files/".$ownerId)){
-	mkdir("../files/".$ownerId);
-	if(!empty($_FILES['filepost'])){
-		move_uploaded_file($file_tmp, "$tmp_path");
-	}
-}else{
-	if(!empty($_FILES['filepost'])){
-		move_uploaded_file($file_tmp, "$tmp_path");
-	}
+if (ftp_nlist($ftp_conn, $ownerId) == false) {
+	ftp_mkdir($ftp_conn, $ownerId);
 }
+ftp_put($ftp_conn, $ftp_path, $_FILES['filepost']['tmp_name'], FTP_BINARY);
 
+
+ftp_close($ftp_conn);
 if(!empty($_FILES['filepost'])){
-$savePost = "INSERT INTO `sf_post`(`ownerId`, `title`, `detail`, `filepath`,`filesystemname`, `created`) VALUES (".$ownerId.",'".$title."','".$detail."','".$path."','".$file_name."',".time().")";
-echo $savePost;
+	$savePost = "INSERT INTO `sf_post`(`ownerId`, `title`, `detail`, `filepath`,`filesystemname`,`filename`, `created`) VALUES (".$ownerId.",'".$title."','".$detail."','".$path."','".$file_name."','".$fileSystemname."',".time().")";
+	echo $savePost;
 }
 makeQuery($savePost, $conn);
 
 function makeQuery($sql, $conn){
-$result = $conn->query($sql);
-print $result;
+	$result = $conn->query($sql);
+	print $result;
 }
 $conn->close();
 ?>

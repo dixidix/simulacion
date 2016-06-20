@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-06-2016 a las 04:52:32
+-- Tiempo de generación: 20-06-2016 a las 17:32:04
 -- Versión del servidor: 10.1.13-MariaDB
 -- Versión de PHP: 5.6.21
 
@@ -723,7 +723,7 @@ CREATE TABLE `mdl_cache_flags` (
 --
 
 INSERT INTO `mdl_cache_flags` (`id`, `flagtype`, `name`, `timemodified`, `value`, `expiry`) VALUES
-(1, 'userpreferenceschanged', '2', 1466374390, '1', 1466381590),
+(1, 'userpreferenceschanged', '2', 1466426834, '1', 1466434034),
 (2, 'userpreferenceschanged', '3', 1466372824, '1', 1466380024),
 (3, 'accesslib/dirtycontexts', '/1/2/16', 1466264990, '1', 1466272190),
 (4, 'accesslib/dirtycontexts', '/1/11', 1466266355, '1', 1466273555),
@@ -6615,7 +6615,24 @@ INSERT INTO `mdl_log` (`id`, `time`, `userid`, `ip`, `course`, `module`, `cmid`,
 (614, 1466373003, 0, '0:0:0:0:0:0:0:1', 1, 'url', 3, 'view', 'view.php?id=3', '3'),
 (615, 1466374390, 2, '0:0:0:0:0:0:0:1', 1, 'user', 0, 'login', 'view.php?id=2&course=1', '2'),
 (616, 1466374390, 2, '0:0:0:0:0:0:0:1', 1, 'course', 0, 'view', 'view.php?id=1', '1'),
-(617, 1466374392, 2, '0:0:0:0:0:0:0:1', 1, 'url', 3, 'view', 'view.php?id=3', '3');
+(617, 1466374392, 2, '0:0:0:0:0:0:0:1', 1, 'url', 3, 'view', 'view.php?id=3', '3'),
+(618, 1466426165, 2, '0:0:0:0:0:0:0:1', 1, 'user', 0, 'login', 'view.php?id=2&course=1', '2'),
+(619, 1466426167, 2, '0:0:0:0:0:0:0:1', 1, 'course', 0, 'view', 'view.php?id=1', '1'),
+(620, 1466426178, 2, '0:0:0:0:0:0:0:1', 1, 'url', 3, 'view', 'view.php?id=3', '3'),
+(621, 1466426401, 2, '0:0:0:0:0:0:0:1', 1, 'user', 0, 'login', 'view.php?id=2&course=1', '2'),
+(622, 1466426401, 2, '0:0:0:0:0:0:0:1', 1, 'course', 0, 'view', 'view.php?id=1', '1'),
+(623, 1466426403, 2, '0:0:0:0:0:0:0:1', 1, 'url', 3, 'view', 'view.php?id=3', '3'),
+(624, 1466426800, 2, '0:0:0:0:0:0:0:1', 1, 'user', 0, 'login', 'view.php?id=2&course=1', '2'),
+(625, 1466426801, 2, '0:0:0:0:0:0:0:1', 1, 'course', 0, 'view', 'view.php?id=1', '1'),
+(626, 1466426804, 2, '0:0:0:0:0:0:0:1', 1, 'url', 3, 'view', 'view.php?id=3', '3'),
+(627, 1466426816, 2, '0:0:0:0:0:0:0:1', 1, 'user', 0, 'login', 'view.php?id=2&course=1', '2'),
+(628, 1466426816, 2, '0:0:0:0:0:0:0:1', 1, 'course', 0, 'view', 'view.php?id=1', '1'),
+(629, 1466426821, 2, '0:0:0:0:0:0:0:1', 1, 'user', 0, 'logout', 'view.php?id=2&course=1', '2'),
+(630, 1466426823, 0, '0:0:0:0:0:0:0:1', 1, 'url', 3, 'view', 'view.php?id=3', '3'),
+(631, 1466426827, 0, '0:0:0:0:0:0:0:1', 1, 'url', 3, 'view', 'view.php?id=3', '3'),
+(632, 1466426834, 2, '0:0:0:0:0:0:0:1', 1, 'user', 0, 'login', 'view.php?id=2&course=1', '2'),
+(633, 1466426835, 2, '0:0:0:0:0:0:0:1', 1, 'course', 0, 'view', 'view.php?id=1', '1'),
+(634, 1466426836, 2, '0:0:0:0:0:0:0:1', 1, 'url', 3, 'view', 'view.php?id=3', '3');
 
 -- --------------------------------------------------------
 
@@ -10045,7 +10062,8 @@ INSERT INTO `mdl_sessions` (`id`, `state`, `sid`, `userid`, `sessdata`, `timecre
 (101, 0, 'mncokvr8m9n9vs42tv9nfjr745', 0, NULL, 1466349419, 1466349419, '0:0:0:0:0:0:0:1', '0:0:0:0:0:0:0:1'),
 (153, 0, 'p3dchtnsetemkiu55jd98fvro1', 0, NULL, 1466362650, 1466362654, '0:0:0:0:0:0:0:1', '0:0:0:0:0:0:0:1'),
 (181, 0, '3urb4v8tjqqgbtqgnsnp5bf1o2', 3, NULL, 1466372824, 1466372827, '0:0:0:0:0:0:0:1', '0:0:0:0:0:0:0:1'),
-(183, 0, 'tn01su01kh98nc30matm2e1ih1', 2, NULL, 1466374390, 1466374392, '0:0:0:0:0:0:0:1', '0:0:0:0:0:0:0:1');
+(183, 0, 'tn01su01kh98nc30matm2e1ih1', 2, NULL, 1466374390, 1466374392, '0:0:0:0:0:0:0:1', '0:0:0:0:0:0:0:1'),
+(191, 0, 'pdf2s48qe2fc3o23i032q2uur2', 2, NULL, 1466426834, 1466426836, '0:0:0:0:0:0:0:1', '0:0:0:0:0:0:0:1');
 
 -- --------------------------------------------------------
 
@@ -11490,7 +11508,7 @@ CREATE TABLE `mdl_user` (
 
 INSERT INTO `mdl_user` (`id`, `auth`, `confirmed`, `policyagreed`, `deleted`, `suspended`, `mnethostid`, `username`, `password`, `idnumber`, `firstname`, `lastname`, `email`, `emailstop`, `icq`, `skype`, `yahoo`, `aim`, `msn`, `phone1`, `phone2`, `institution`, `department`, `address`, `city`, `country`, `lang`, `calendartype`, `theme`, `timezone`, `firstaccess`, `lastaccess`, `lastlogin`, `currentlogin`, `lastip`, `secret`, `picture`, `url`, `description`, `descriptionformat`, `mailformat`, `maildigest`, `maildisplay`, `autosubscribe`, `trackforums`, `timecreated`, `timemodified`, `trustbitmask`, `imagealt`, `lastnamephonetic`, `firstnamephonetic`, `middlename`, `alternatename`, `active`) VALUES
 (1, 'manual', 1, 0, 0, 0, 1, 'guest', '$2y$10$mB/pVNpK1euL9apCHIGdZeIjozKtLUPHcE0FyEN3dgisEHB81DKbO', '', 'Guest user', ' ', 'root@localhost', 0, '', '', '', '', '', '', '', '', '', '', '', '', 'en', 'gregorian', '', '99', 0, 0, 0, 0, '', '', 0, '', 'This user is a special user that allows read-only access to some courses.', 1, 1, 0, 2, 1, 0, 0, 1465851455, 0, NULL, NULL, NULL, NULL, NULL, 0),
-(2, 'manual', 1, 0, 0, 0, 1, 'admin', '49da846da147bf3092c56c6dd051a551', '', 'Admin', 'User', 'testadmin@gmail.com', 0, '', '', '', '', '', '', '', '', '', '', '', '', 'en', 'gregorian', '', '99', 1465851591, 1466374390, 1466372770, 1466374390, '0:0:0:0:0:0:0:1', '', 0, '', '', 1, 1, 0, 1, 1, 0, 0, 1465851639, 0, NULL, '', '', '', '', 0),
+(2, 'manual', 1, 0, 0, 0, 1, 'admin', '49da846da147bf3092c56c6dd051a551', '', 'Admin', 'User', 'testadmin@gmail.com', 0, '', '', '', '', '', '', '', '', '', '', '', '', 'en', 'gregorian', '', '99', 1465851591, 1466426834, 1466426816, 1466426834, '0:0:0:0:0:0:0:1', '', 0, '', '', 1, 1, 0, 1, 1, 0, 0, 1465851639, 0, NULL, '', '', '', '', 0),
 (3, 'manual', 1, 0, 0, 0, 1, 'andres', '31f58a3a715c6db5ef6e6d47ef9fd161', '', 'Andres', 'Coppola', 'l52374@trbvo.com', 0, '', '', '', '', '', '', '', '', '', '', 'Mendoza', 'AR', 'es', 'gregorian', '', '-3.0', 1465943217, 1466372824, 1466369237, 1466372824, '0:0:0:0:0:0:0:1', '', 0, '', '', 1, 1, 0, 2, 1, 0, 1465943140, 1465943140, 0, '', '', '', '', '', 0);
 
 -- --------------------------------------------------------
@@ -12234,15 +12252,9 @@ CREATE TABLE `sf_post` (
   `detail` mediumtext NOT NULL,
   `filepath` varchar(150) NOT NULL,
   `filesystemname` varchar(200) NOT NULL,
+  `filename` varchar(200) NOT NULL,
   `created` bigint(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `sf_post`
---
-
-INSERT INTO `sf_post` (`postId`, `ownerId`, `title`, `detail`, `filepath`, `filesystemname`, `created`) VALUES
-(12, 3, 'Digital Love Letters for fathers who are incarcerated', 'This past Mother''s Day, we shared #LoveLetters, a partnership among nonprofits to give the children of incarcerated parents a chance to have their voices heard. Today, in celebration of Fatherâ€™s Day, you can watch Love Letters for incarcerated fathers. This work is part of our continued commitment to raising awareness about racial injustice, and to bearing witness to the human costs of mass incarceration.', '/foro/files/3/efdd841e0803f3124514e32772a9cf07f56536ea4eb1a1b2f205d73e95b1d442.png', 'Sin_tÃ­tulo.png', 1466369262);
 
 --
 -- Índices para tablas volcadas
@@ -15537,7 +15549,7 @@ ALTER TABLE `mdl_license`
 -- AUTO_INCREMENT de la tabla `mdl_log`
 --
 ALTER TABLE `mdl_log`
-  MODIFY `id` bigint(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=618;
+  MODIFY `id` bigint(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=635;
 --
 -- AUTO_INCREMENT de la tabla `mdl_log_display`
 --
@@ -16052,7 +16064,7 @@ ALTER TABLE `mdl_scorm_seq_ruleconds`
 -- AUTO_INCREMENT de la tabla `mdl_sessions`
 --
 ALTER TABLE `mdl_sessions`
-  MODIFY `id` bigint(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=184;
+  MODIFY `id` bigint(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=192;
 --
 -- AUTO_INCREMENT de la tabla `mdl_stats_daily`
 --
@@ -16347,7 +16359,7 @@ ALTER TABLE `mdl_workshop_submissions_old`
 -- AUTO_INCREMENT de la tabla `sf_post`
 --
 ALTER TABLE `sf_post`
-  MODIFY `postId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `postId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

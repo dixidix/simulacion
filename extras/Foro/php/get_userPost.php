@@ -3,7 +3,7 @@ require('./conn.php');
 
 $rows[] = array();
 $id = $_GET['userid'];
-$posts = "SELECT postId, ownerId, title, detail, filepath,filesystemname, created, mdl_user.firstname, mdl_user.lastname FROM `sf_post`  JOIN mdl_user  WHERE sf_post.ownerId = mdl_user.id AND ownerId = ".$id."";
+$posts = "SELECT postId, ownerId, title, detail, filepath,filesystemname, filename, created, mdl_user.firstname, mdl_user.lastname FROM `sf_post`  JOIN mdl_user  WHERE sf_post.ownerId = mdl_user.id AND ownerId = ".$id."";
 
 // makeQuery($sql, $conn);
 makeQuery($posts, $conn);

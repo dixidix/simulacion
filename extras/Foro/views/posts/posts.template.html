@@ -16,7 +16,7 @@
 					<p>
 						{{post.detail}}
 					</p>
-					<a href="{{post.filepath}}" target="_blank" class="waves-effect btn-flat blue-text" download="{{post.filesystemname}}">Descargar</a><a ui-sref="posts" ui-sref-opts="{reload: true}" class="waves-effect btn-flat red-text" data-ng-click="deletePost(post.postId)">Eliminar</a>
+					<a  ng-click="getFile(post)" target="_self" class="waves-effect btn-flat blue-text" download>Descargar</a><a ui-sref="posts" ui-sref-opts="{reload: true}" class="waves-effect btn-flat red-text" data-ng-click="deletePost(post.postId)">Eliminar</a>
 				</div>
 			</li>
 		</ul>
@@ -41,7 +41,7 @@
 						<div class="file-field input-field">
 							<div class="btn">
 								<span>File</span>
-								<input type="file"  uploader-model="file.filepost">
+								<input type="file" name="filepost" uploader-model="file.filepost">
 							</div>
 							<div class="file-path-wrapper">
 								<input class="file-path validate" type="text">

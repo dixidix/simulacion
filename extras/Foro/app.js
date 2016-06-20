@@ -137,6 +137,15 @@ cscw.controller('myPostsCtrl', function($scope, $http, uploadService, $state){
 		detail:'',
 		filepost:'',
 	};
+	$scope.getFile = function(file){
+		console.log(file);
+		$http.get('./php/get_file.php', {params:{ path: file.filepath, filename: file.filename ,id: file.ownerId }}).then(function success(response){
+			  window.open('/foro/' + file.filepath, '_self');
+		},
+		function onError(error){
+			console.log(error);
+		});
+	}
 	$scope.deletePost = function(postId){
 		console.log(postId);
 		$http({
